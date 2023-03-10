@@ -1,7 +1,7 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body{
     background-color: #00334d;
-    background-image: url('ToaMata.png');
+    background-image: url('img/ToaMata.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -11,17 +11,17 @@ body{
     border-bottom: 1px solid #e5e5e5;
 }
 .hud{
-    background-image: url('hud.jpg');
+    background-image: url('img/hud.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .hud2{
-    background-image: url('hud3.png');
+    background-image: url('img/hud3.png');
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 .sandStone{
-    background-image: url('sandStone.webp');
+    background-image: url('img/sandStone.webp');
 }
 .blog-header-logo {
     font-family: Amiri, Georgia, "Times New Roman", serif;
@@ -42,6 +42,9 @@ body{
     font-family: matoranTipo;
     src:local('Bionicle-Regular'), 
         url('Bionicle-Regular.ttf');
+}
+.matoranCode{
+    font-family: 'matoranTipo';
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: 'bionicleTipo';
@@ -86,7 +89,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 100%;
     border-radius: 3px 0 0 3px;
 }
-
+.bg-sand{
+    background-color: #ffb84d;
+}
 .flex-auto {
     flex: 0 0 auto;
 }
