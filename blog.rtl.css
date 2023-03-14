@@ -1,11 +1,12 @@
 /* stylelint-disable selector-list-comma-newline-after */
 body{
-    background-color: #00334d;
-    background-image: url('img/ToaMata.png');
-    background-repeat: no-repeat;
+    background-color: #000000;
+        background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+
 }
+
 .blog-header {
     line-height: 1;
     border-bottom: 1px solid #e5e5e5;
@@ -50,7 +51,13 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'bionicleTipo';
     color: #e6ac00;
 }
-
+.title{
+    font-family: 'bionicleTipo';
+    color: #e6ac00;  
+}
+a{
+    color:black;
+}
 .display-4 {
     font-size: 2.5rem;
 }
